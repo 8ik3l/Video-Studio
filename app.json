@@ -1,19 +1,35 @@
 {
-  "expo":{
-    "name":"Video Studio",
-    "slug":"video-studio",
-    "version":"1.0.0",
-    "orientation":"portrait",
-    "userInterfaceStyle":"dark",
-    "android":{
-      "package":"com.videostudio.mobile",
-      "versionCode":1,
-      "permissions":["READ_MEDIA_VIDEO","READ_MEDIA_IMAGES"]
+  "expo": {
+    "name": "Video Studio",
+    "slug": "video-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.videostudio.mobile",
+      "versionCode": 1,
+      "permissions": [
+        "READ_MEDIA_VIDEO",
+        "READ_MEDIA_IMAGES"
+      ]
     },
-    "plugins":[
+    "plugins": [
       "expo-video",
-      ["expo-media-library",{"photosPermission":"Allow Video Studio to access your photos and videos.","savePhotosPermission":"Allow Video Studio to save exported videos."}]
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Video Studio to access your photos and videos.",
+          "savePhotosPermission": "Allow Video Studio to save exported videos."
+        }
+      ]
     ],
-    "assetBundlePatterns":["**/*"]
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c9ad1eef-3589-4ffc-ad51-ce9f594857bd"
+      }
+    }
   }
 }
