@@ -1,19 +1,23 @@
 {
-  "name":"video-studio",
-  "version":"1.0.0",
-  "private":true,
-  "main":"node_modules/expo/AppEntry.js",
-  "scripts":{"start":"expo start","android":"expo run:android","prebuild":"expo prebuild --clean"},
-  "dependencies":{
-    "expo":"^57.0.0",
-    "expo-document-picker":"~57.0.2",
-    "expo-file-system":"~19.0.17",
-    "expo-image-picker":"~17.0.8",
-    "expo-media-library":"~18.2.1",
-    "expo-status-bar":"~3.0.9",
-    "expo-video":"~3.0.0",
-    "expo-modules-core":"~57.0.18",
-    "react":"19.2.3",
-    "react-native":"0.86.0"
+  "name": "video-studio",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "prebuild": "expo prebuild --clean"
+  },
+  "dependencies": {
+    "expo": "~57.0.23",
+    "expo-document-picker": "~57.0.2",
+    "expo-file-system": "~19.0.17",
+    "expo-image-picker": "~17.0.8",
+    "expo-media-library": "~18.2.1",
+    "expo-status-bar": "~3.0.9",
+    "expo-video": "~3.0.0",
+    "expo-modules-core": "~57.0.18",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
   }
 }
