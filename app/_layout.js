@@ -1,0 +1,1 @@
+import{Stack}from'expo-router';import{StatusBar}from'expo-status-bar';import{StudioProvider}from'../context/StudioContext';export default function Layout(){return <StudioProvider><StatusBar style="light"/><Stack screenOptions={{headerShown:false,contentStyle:{backgroundColor:'#070A0F'}}}/></StudioProvider>}

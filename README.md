@@ -1,16 +1,12 @@
 # Video Studio
 
-Android video editor built with Expo + EAS and native Android modules.
+تطبيق تحرير فيديو عربي RTL مبني على Expo + EAS، مستوحى من واجهة التصميم المرفقة.
 
-## Build
-Use Expo EAS Build for Android. The project is designed as a native Expo app, not Expo Go.
+## التشغيل
+`npm install`
+`npx expo start`
 
-## Current native capabilities
-- Video/image selection
-- Video preview
-- Project metadata
-- Local project persistence
-- Android media library integration
-- Native Android extension point for real video processing
+## Android / EAS
+`npx eas build --platform android --profile preview`
 
-The bundled font is expected at `assets/fonts/iphone-thin.ttf`.
+المميزات الحالية: اختيار صور وفيديوهات، Timeline، معاينة، مشاريع وحفظ محلي، تأثيرات، موسيقى، شاشة تصدير وإعدادات جودة. التصدير النهائي متعدد الطبقات إلى MP4 يحتاج محرك native مثل FFmpeg داخل Development Build.

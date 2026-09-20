@@ -1,0 +1,1 @@
+export const C={bg:'#070A0F',surface:'#111821',surface2:'#171F2A',border:'#263241',text:'#F7F8FC',muted:'#8B96A6',purple:'#8B5CFF',blue:'#338CFF',cyan:'#20D7FF',pink:'#F15BFF',green:'#35D07F'};export const GRADIENT=['#8B5CFF','#3E86FF','#20D7FF'];

@@ -1,35 +1,7 @@
 {
-  "expo": {
-    "name": "Video Studio",
-    "slug": "video-studio",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "android": {
-      "package": "com.videostudio.mobile",
-      "versionCode": 1,
-      "permissions": [
-        "READ_MEDIA_VIDEO",
-        "READ_MEDIA_IMAGES"
-      ]
-    },
-    "plugins": [
-      "expo-video",
-      [
-        "expo-media-library",
-        {
-          "photosPermission": "Allow Video Studio to access your photos and videos.",
-          "savePhotosPermission": "Allow Video Studio to save exported videos."
-        }
-      ]
-    ],
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "c9ad1eef-3589-4ffc-ad51-ce9f594857bd"
-      }
-    }
-  }
+ "expo":{"name":"Video Studio","slug":"video-studio","version":"1.0.0","orientation":"portrait","scheme":"videostudio","userInterfaceStyle":"dark","newArchEnabled":true,
+ "android":{"package":"com.videostudio.editor","edgeToEdgeEnabled":true},
+ "ios":{"bundleIdentifier":"com.videostudio.editor","supportsTablet":true},
+ "plugins":["expo-router",["expo-image-picker",{"photosPermission":"Video Studio يحتاج الوصول إلى الصور والفيديوهات لاختيار الوسائط."}]]
+ }
 }
