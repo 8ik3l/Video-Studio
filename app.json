@@ -1,0 +1,19 @@
+{
+  "expo":{
+    "name":"Video Studio",
+    "slug":"video-studio",
+    "version":"1.0.0",
+    "orientation":"portrait",
+    "userInterfaceStyle":"dark",
+    "android":{
+      "package":"com.videostudio.mobile",
+      "versionCode":1,
+      "permissions":["READ_MEDIA_VIDEO","READ_MEDIA_IMAGES"]
+    },
+    "plugins":[
+      "expo-video",
+      ["expo-media-library",{"photosPermission":"Allow Video Studio to access your photos and videos.","savePhotosPermission":"Allow Video Studio to save exported videos."}]
+    ],
+    "assetBundlePatterns":["**/*"]
+  }
+}
