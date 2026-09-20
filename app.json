@@ -1,7 +1,33 @@
 {
- "expo":{"name":"Video Studio","slug":"video-studio","version":"1.0.0","orientation":"portrait","scheme":"videostudio","userInterfaceStyle":"dark","newArchEnabled":true,
- "android":{"package":"com.videostudio.editor","edgeToEdgeEnabled":true},
- "ios":{"bundleIdentifier":"com.videostudio.editor","supportsTablet":true},
- "plugins":["expo-router",["expo-image-picker",{"photosPermission":"Video Studio يحتاج الوصول إلى الصور والفيديوهات لاختيار الوسائط."}]]
- }
+  "expo": {
+    "name": "Video Studio",
+    "slug": "video-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "videostudio",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.videostudio.editor",
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.videostudio.editor",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Video Studio يحتاج الوصول إلى الصور والفيديوهات لاختيار الوسائط."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5c4279bf-57e4-42d9-be55-0e1871911f8f"
+      }
+    }
+  }
 }
